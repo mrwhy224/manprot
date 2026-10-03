@@ -1,0 +1,11 @@
+{
+  "name": "robotyar-demo-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/app.js && node --check src/core.mjs",
+    "serve": "python3 -m http.server 5173"
+  }
+}
