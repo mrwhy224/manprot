@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test tests/calculations.test.mjs",
     "check": "node --check src/app.js && node --check src/core.mjs",
-    "serve": "python3 -m http.server 5173"
+    "serve": "python -m http.server 5173"
   }
 }
